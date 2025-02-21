@@ -11,16 +11,16 @@ touchpads, and interacting with the system environment—such as setting locales
 configuring backlight, or managing Bluetooth devices.
 * Install system dependencies
 Before installing Miera, you need to install the required system dependencies.
-These dependencies vary based on the operating system that you're using.
+These dependencies vary based on the system that you're using.
 *** Nix
 #+begin_src sh
 nix profile install nixpkgs#sbcl nixpkgs#cl-launch nixpkgs#gnumake
-#+end_Src
+#+end_src
 *** Debian/Ubuntu
 #+begin_src sh
 sudo apt install -y sbcl cl-launch make
 #+end_src
-*** Fedora/RHEL/CentOS
+*** Fedora/CentOS
 #+begin_src sh
 sudo dnf install -y sbcl cl-launch make
 #+end_src
